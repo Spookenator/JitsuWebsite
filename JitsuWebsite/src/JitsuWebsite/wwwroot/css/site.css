@@ -32,3 +32,10 @@ textarea {
         z-index: 10 !important;
     }
 }
+
+blocks
+{
+    height: 70vh;
+    margin: 0 15px;
+    border: 1px solid black;
+}
