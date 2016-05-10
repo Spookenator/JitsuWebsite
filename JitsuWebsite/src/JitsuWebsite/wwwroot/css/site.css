@@ -5,7 +5,7 @@
 
 .blocks
 {
-    height: 70vh;
+    height: 80vh;
     margin: 15px 0;
     background: #607D8B;
     position: relative; 
@@ -37,9 +37,9 @@
 
 .block-cover 
 {
-background-size: 100% 100%;
-width: 100%;
-min-height:100%;
+    background-size: 100% 100%;
+    width: 100%;
+    min-height:100%;
 }
 
 #navbar
@@ -98,5 +98,24 @@ textarea {
         z-index: 10 !important;
     }
 }
+.carousel-inner
+{
+    height: 100%;
+}
 
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+     width: 100%; 
+}
 
+.carousel-inner .item
+{
+    height: 100%;
+}
+
+.carousel-caption
+{
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    left: 0;
+    position: absolute;
+}

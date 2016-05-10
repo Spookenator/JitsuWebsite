@@ -12,7 +12,7 @@ $(document).ready( function()
 		
 		$('html, body').animate(
 		{
-			scrollTop: $('#'+section).offset().top - navHeight
+			scrollTop: $('#'+section).offset().top - navHeight - 10
 		}, 500);
 	});
 	
