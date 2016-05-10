@@ -3,6 +3,72 @@
     padding-bottom: 20px;
 }
 
+.blocks
+{
+    height: 70vh;
+    margin: 15px 0;
+    background: #607D8B;
+    position: relative; 
+}
+.blocks-content
+{
+    width: 50%;
+    height: 85%;
+    top: 15%;
+    color:white;
+    position: absolute;
+    padding-left: 10px !important;
+    padding-top: 10px;
+    background: rgba(0,0,0,0.7);
+    overflow: auto;
+}
+
+.blocks-header
+{
+   height:15%;
+   width: 50%;
+   background: rgba(0,0,0,1);
+   color:white;
+   position: absolute;
+   top: 0;
+   padding-left: 10px !important;
+   margin: 0 !important;
+}
+
+.block-cover 
+{
+background-size: 100% 100%;
+width: 100%;
+min-height:100%;
+}
+
+#navbar
+{
+    float: right;
+}
+
+#navbar a
+{
+    height: 100%;
+    margin: 0 5px;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    vertical-align: text-bottom;
+}
+
+#navbar a:hover
+{
+    background-color: #555;
+}
+
+#navbar a.active
+{
+    background-color: #000;
+}
+
+
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
@@ -33,9 +99,4 @@ textarea {
     }
 }
 
-blocks
-{
-    height: 70vh;
-    margin: 0 15px;
-    border: 1px solid black;
-}
+

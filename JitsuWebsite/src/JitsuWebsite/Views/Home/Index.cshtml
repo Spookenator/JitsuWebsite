@@ -1,6 +1,9 @@
 ﻿
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000" style="height:70vh">
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000" style="height:85vh;">
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -9,22 +12,26 @@
     </ol>
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <img src="~/images/ASP-NET-Banners-01.png" alt="ASP.NET" class="img-responsive" />
+            <!-- <img src="https://static.pexels.com/photos/36776/fitness-strength-strong-male-large.jpg" alt="Jitsu South Africa" class="img-responsive" /> -->
+            <img src="~/images/nsb.jpg" alt="Jitsu South Africa" class="img-responsive" />
+            <div class="carousel-caption">
+                <h1> Jitsu </h1>
+                <p> The gentle way </p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="https://static.pexels.com/photos/36776/fitness-strength-strong-male-large.jpg" alt="Jitsu South Africa" class="img-responsive" />
+            <div class="carousel-caption">
+                
+            </div>
+        </div>
+        <div class="item">
+            
             <div class="carousel-caption">
             </div>
         </div>
         <div class="item">
-            <img src="~/images/Banner-02-VS.png" alt="Visual Studio" class="img-responsive" />
-            <div class="carousel-caption">
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/ASP-NET-Banners-02.png" alt="Package Management" class="img-responsive" />
-            <div class="carousel-caption">
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/Banner-01-Azure.png" alt="Microsoft Azure" class="img-responsive" />
+            
             <div class="carousel-caption">
 
             </div>
@@ -40,18 +47,103 @@
     </a>
 </div>
 
-<div id="whatIsJitsu" class="row blocks">
-    <p> lorem ipsum </p>
+<div id="whatIsJitsu" class="row blocks block-cover"> <!-- style="background: url('https://static.pexels.com/photos/36776/fitness-strength-strong-male-large.jpg') center no-repeat"> -->
+    <div class="blocks-header">
+        <h1>What is Jitsu?</h1>
+    </div>
+    
+    <div class="blocks-content">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Nullam ut viverra dolor. Maecenas auctor urna at maximus volutpat. 
+            Donec pharetra ante mi, vitae hendrerit neque iaculis eleifend. 
+            Praesent non nibh vitae libero mattis semper et nec velit. 
+            Etiam at volutpat urna. Donec consectetur consectetur elit at venenatis. 
+            Etiam ut rutrum nulla, vitae blandit lacus. 
+            Nunc sit amet nisi consequat, auctor nulla sed, tempor nulla. 
+            Quisque at felis at justo iaculis sagittis et non tortor. 
+            Pellentesque at sapien non lectus porttitor consequat sit amet sed tortor. 
+            Maecenas a mauris purus. Praesent pellentesque varius justo, et volutpat sem. 
+            Pellentesque dapibus ullamcorper leo, vel faucibus mauris commodo nec. 
+            Etiam pharetra massa rutrum nisi molestie interdum. Etiam tincidunt erat quis elementum vehicula. 
+        </p>
+    </div> 
 </div>
 
-<div id="whyDoJitsu" class="row blocks ">
+<div id="whyDoJitsu" class="row blocks">
+    <div class="blocks-header">
+        <h1>Why do Jitsu?</h1>
+    </div>
     
-</div>
-
-<div id="trainingTimes" class="row blocks">
-    
+    <div class="blocks-content">     
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Nullam ut viverra dolor. Maecenas auctor urna at maximus volutpat. 
+            Donec pharetra ante mi, vitae hendrerit neque iaculis eleifend. 
+            Praesent non nibh vitae libero mattis semper et nec velit. 
+            Etiam at volutpat urna. Donec consectetur consectetur elit at venenatis. 
+            Etiam ut rutrum nulla, vitae blandit lacus. 
+            Nunc sit amet nisi consequat, auctor nulla sed, tempor nulla. 
+            Quisque at felis at justo iaculis sagittis et non tortor. 
+            Pellentesque at sapien non lectus porttitor consequat sit amet sed tortor. 
+            Maecenas a mauris purus. Praesent pellentesque varius justo, et volutpat sem. 
+            Pellentesque dapibus ullamcorper leo, vel faucibus mauris commodo nec. 
+            Etiam pharetra massa rutrum nisi molestie interdum. Etiam tincidunt erat quis elementum vehicula. 
+        </p>
+    </div>
 </div>
 
 <div id="instructors" class="row blocks" >
+    <div class="blocks-header">
+        <h1>Instructors</h1>
+    </div>
     
+    <div class="blocks-content">
+        <p>
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a venenatis ipsum. Donec iaculis turpis eu leo porta, ac sollicitudin magna tristique. Nullam nec porta eros. Mauris faucibus mollis mauris nec scelerisque. Integer dapibus ipsum ligula, sed vestibulum erat auctor sit amet. Etiam purus felis, eleifend eget felis at, volutpat mattis quam. Aenean quis mi id erat viverra pulvinar. Pellentesque cursus, lorem et rutrum tempor, elit ex sagittis erat, quis fringilla eros libero sed lacus. Cras ornare faucibus diam, sit amet vehicula est. Cras vitae convallis urna. Duis congue volutpat fermentum. Mauris mattis odio felis, at rutrum mauris interdum vitae. Phasellus in leo ac leo laoreet facilisis vel a mauris. Vivamus accumsan in metus at accumsan. Donec sit amet tempus eros.
+        </p>
+    </div>
+  
 </div>
+
+<div id="trainingTimes" class="row blocks">
+    <div class="blocks-header">
+        <h1>Training Times</h1>
+    </div>
+    
+    <div class="blocks-content">
+        <p>
+            Currently only the Pretoria club is active
+        </p>
+        <p>
+           <b>Training Times: </b>
+           <br/>
+           Mondays:     18:30 - 20:30
+           <br/>
+           Wednesdays:  18:30 - 20:30           
+        </p>
+        
+        <p>
+           <b>Location: </b>
+           <br/>
+           Colbyn Scout Hall
+           <br/>
+           Kilnerton Road, Pretoria, Gauteng  
+           <br/>
+           Directions: <a href="https://goo.gl/maps/cpp2CmoicJk"> Colbyn Scout Hall </a>
+           <br/>
+           The entrance to the scout hall is next to the bowling club. Just follow the dirt road.
+        </p>
+    </div>
+   
+</div>
+
+<!-- <div id="location" class="row blocks" >
+    <div class="google-maps">
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.975918230336!2d28.251356250243898!3d-25.738309951363732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e956034b70a29cb%3A0xc211223307f830bc!2sColbyn+Scout+Hall%2C+Kilnerton+Rd%2C+Pretoria%2C+0186!5e0!3m2!1sen!2sza!4v1462631471406" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+  <div class="blocks-footer">
+    <h1>Location</h1>
+   </div>
+</div> -->
+

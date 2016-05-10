@@ -5,28 +5,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Jitsu South Africa</title>
 
-        <environment names="Development">
+        
             <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
             <link rel="stylesheet" href="~/css/site.css" />
-        </environment>
-        <environment names="Staging,Production">
-            <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/css/bootstrap.min.css"
-                  asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
-                  asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
-            <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
-        </environment>
+       
     </head>
     <body>
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
-                <div class="navbar-header">
-                   
+                <div class="navbar-header" id="navbarHead">
                     <a asp-controller="Home" asp-action="Index" class="navbar-brand">Jitsu South Africa</a>
+                </div>
+                
+                <div id="navbar">
+                    <a class="navbar-link " data-section="whatIsJitsu">What Is Jitsu</a>
+                    <a class="navbar-link" data-section="whyDoJitsu">Why Do Jitsu</a>
+                    <a class="navbar-link" data-section="instructors">Instructors</a>
+                    <a class="navbar-link" data-section="trainingTimes">Training Times</a>
                 </div>
                
             </div>
         </div>
-        <div class="container body-content">
+        <div class="container-fluid body-content">
             @RenderBody()
             <hr />
             <footer>
